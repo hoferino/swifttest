@@ -3,7 +3,7 @@
 //  TestApp
 //
 //  Created by Max Höfer on 08.03.18.
-//  Copyright © 2018 Max Höfer. All rights reserved.
+//  Copyright © 2018 Max Höfer. All rights reserved..
 //
 
 import UIKit
