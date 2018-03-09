@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var text2: UITextField!
     
+    @IBOutlet weak var Text3: UITextField!
+    
     var tapcount = 0
     
     @IBAction func Button1(_ sender: Any) {
@@ -28,6 +30,8 @@ class ViewController: UIViewController {
         if tapcount >= 10 {
             Label1.text = ("You tap a lot!")
         }
+        Text3.text = String(Double(Text1.text!)! + Double(text2.text!)!)
+        // String "" plus \() integriert double in String
         
     }
     override func viewDidLoad() {
